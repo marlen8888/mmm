@@ -14,7 +14,7 @@
     font-size: 1.2rem;  
     position: sticky;  
     top: 0;  
-    z-index: 999;  
+    z-index: 10;  
 }  
   
 .navbar__container {  
@@ -217,7 +217,7 @@
 }
 
 .main__content h1 {
-    font-size: 4 rem;
+    font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199  100%);
     background-size: 100%;
@@ -228,7 +228,7 @@
 }
 
 .main__content h2 {
-    font-size: 4 rem;
+    font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd  100%);
     background-size: 100%;
@@ -293,8 +293,8 @@
 }
 
 #main__img {
-    height: 80%;
-    width: 80%;
+    height: auto;
+    max-width: 100%;
 }
 
 /* Mobile Responsive */
@@ -315,7 +315,7 @@
     }
 
     .main__content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
     }
 
@@ -357,4 +357,16 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+}
+
+.services h1{
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
 }
